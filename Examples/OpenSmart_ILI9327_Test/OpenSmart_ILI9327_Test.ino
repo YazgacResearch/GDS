@@ -1,7 +1,8 @@
 
-#include <Adafruit_GFX.h>    // Core graphics library
 #include <GDShield_Capabilities.h>
 #include <GDShields.h>
+
+#include <Adafruit_GFX.h>    // Core graphics library
 
 GDS tft;
 
@@ -37,6 +38,7 @@ void Draw_DrawingBoard(void)
 }
 
 void setup(void) {
+  //ts.setCalibrated(true);
   Serial.begin(115200);
   Serial.println(F("TFT LCD test"));
   
