@@ -1,0 +1,54 @@
+OPEN-SMART 3.2inch TFT LCD  SHIELD
+DRIVER : ILI9327
+
+PIN           ARDUINO MEGA 2560
+
+GND           GND
+
+
+SCL           30 -- SCL
+SDA           29 -- SDA
+
+LCD_RST       34 -- RESET
+LCD_RD        17 -- A0
+LCD_WR        18 -- A1
+LCD_RS        19 -- A2
+LCD_CS        20 -- A3
+
+LCD_D0        8
+LCD_D1        9
+LCD_D2        10
+LCD_D3        11
+LCD_D4        4
+LCD_D5        13
+LCD_D6        6
+LCD_D7        7
+
+
+SD_CS         5
+
+D3            4
+SCK           35
+MOSI          32
+MISO          36
+
+
+    
+
+// GND              -- GND
+// 3V3               -- 3.3V
+// CS                 -- A3
+// RS                 -- A2
+// WR                -- A1
+// RD                 -- A0
+// RST                -- RESET
+// LED                -- GND
+// DB0                -- 8
+// DB1                -- 9
+// DB2                -- 10
+// DB3                -- 11
+// DB4                -- 4
+// DB5                -- 13
+// DB6                -- 6
+// DB7                -- 7
+                            
